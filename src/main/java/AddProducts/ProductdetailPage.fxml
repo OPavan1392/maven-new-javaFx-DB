@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddProducts.AddProductController">
+   <children>
+      <TextField fx:id="PName" layoutX="264.0" layoutY="92.0" />
+      <TextField fx:id="PQuantity" layoutX="265.0" layoutY="130.0" />
+      <TextField fx:id="pPrice" layoutX="266.0" layoutY="169.0" />
+      <Text layoutX="154.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name" />
+      <Text layoutX="149.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Quantity" wrappingWidth="96.6578369140625" />
+      <Text layoutX="154.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Price" wrappingWidth="90.2578125" />
+      <Text layoutX="289.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TexProduct Detailst" />
+      <Button layoutX="274.0" layoutY="242.0" mnemonicParsing="false" onAction="#ProductAdd" text="Sumbmit" />
+   </children>
+</AnchorPane>
